@@ -191,4 +191,42 @@
      vertical-align: bottom;
      border: 0;
 }
-/*I kept these syles inside this main css file since there was not a lot. It would be more costly with regard to resources to make separate files for such a small amount of styling, based on my research.*/
+/*Map Page*/
+.map-container {
+  height: 70vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2vh 0 2vh 0;
+}
+#google-map {
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .top-banner {
+      font-size: 42pt;
+      margin-top: 0.1em;
+      margin-bottom: 0.1em;
+ }
+  nav ul {
+      width: 100%;
+      border-radius: 0px;
+  }
+  nav li a {
+      padding: 14px 10px;
+      font-size: 10pt;
+  }
+  .resume {
+      width: 100%;
+      border-radius: 0px;
+      padding: 0 0 18px 0;
+ }
+ .resumebody {
+     font-size: 60%;
+     line-height: 3;
+     padding: 0px;
+}
+h2 {
+  font-size: 140%;
+}
+}
