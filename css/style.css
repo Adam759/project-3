@@ -202,6 +202,7 @@
   height: 100%;
   width: 100%;
 }
+/*Mobile Style*/
 @media only screen and (max-width: 768px) {
   .top-banner {
       font-size: 42pt;
