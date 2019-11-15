@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Titillium+Web&display=swap');
+/*Start Global CSS*/
+/*Main Elements*/
+ body {
+     text-align: center;
+     color: white;
+     background: #3d3d3d;
+     font-family: "Titillium Web";
+}
+ h1 {
+     font-size: 200%;
+     margin: 0 auto;
+     margin-top: 1%;
+     padding: 0.5em;
+     font-weight: bold;
+}
+ h2 {
+     font-size: 170%;
+     margin: 0 auto;
+     padding: 0.8vh;
+     font-weight: bold;
+}
+ h3 {
+     font-size: 120%;
+     margin: 0 auto;
+     font-weight: bold;
+}
+ em {
+     font-style: italic;
+}
+ strong {
+     font-weight: bold;
+}
+ .top-banner {
+     font-size: 62pt;
+     font-family: "Mansalva";
+     color: grey;
+     margin: 0 auto;
+     margin-top: 0.3em;
+     margin-bottom: 0.3em;
+}
+ hr {
+     border: 3px solid #a6a6a6;
+     margin: 5vh 0 5vh 0;
+}
+/*Navigation*/
+ nav {
+     display: inline;
+}
+ nav ul {
+     list-style-type: none;
+     margin: 0 auto;
+     padding: 0;
+     width: 60%;
+     background-color: #2e2e2e;
+     border-radius: 8px;
+}
+ nav li {
+     display: inline-block;
+}
+ nav li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 42px;
+     text-decoration: none;
+     font-size: large;
+     font-weight: bold;
+}
+ nav li a:hover {
+     background-color: #0f0f0f;
+}
+/*Page Footer Elements*/
+ .toplink {
+     display: inline-block;
+     background: #6b6b6b;
+     width: 25%;
+     margin: 0 auto;
+     margin-top: 2vh;
+     padding: 1vh;
+     color: white;
+}
+ .toplink:hover {
+     background-color: #0f0f0f;
+}
+ .copyright {
+     font-family: "Verdana";
+     color: black;
+     font-size: small;
+     margin: 0 auto;
+     margin-top: 5vh;
+     margin-bottom: 4vh;
+}
+/*Topic Headlines*/
+ .topic-head {
+     background: #525252;
+     font-family: "Mansalva";
+}
+/*Topic Info Blocks*/
+ .topic-info {
+     font-size: large;
+     margin: 0 auto;
+     margin-top: 2vh;
+     border-radius: 15px;
+     padding: 2em;
+     width: 70vw;
+     background-color: #525252;
+     font-weight: bold;
+     line-height: 1.3;
+}
+/*Topic Subheadlines*/
+ .topic-subhead {
+     margin: 0 auto;
+     margin-top: 2vh;
+     margin-bottom: 2vh;
+     background: #4d4d4d;
+     font-family: "Mansalva";
+     width: 90%;
+}
+ .topic-subhead2 {
+     margin: 0 auto;
+     margin-top: 2vh;
+     margin-bottom: 2vh;
+     background: #4d4d4d;
+     width: 40%;
+}
+/*Topic Subdescriptions*/
+ .topic-desc {
+     margin: 0 auto;
+     margin-top: 2vh;
+     margin-bottom: 2vh;
+     background: #4d4d4d;
+     padding: 2vh;
+     width: 50vw;
+     font-size: large;
+}
+/*End Global CSS*/
+/*Start Individual Pages*/
+/*Resume Page*/
+ .resumebody {
+     font-size: 110%;
+     line-height: 2.5;
+}
+ .resumebody ul {
+     list-style: disc outside none;
+     display: table;
+     margin: 0 auto;
+}
+ .resumebody ul li {
+     text-align: left;
+     line-height: 1.5;
+}
+ .resume {
+     margin: 0 auto;
+     margin-top: 17px;
+     margin-bottom: 17px;
+     border-radius: 15px;
+     padding: 10px;
+     padding-top:0px;
+     padding-bottom: 42px;
+     width: 700px;
+}
+ .resume.info {
+     background: #5f7d56;
+}
+ .resume.education {
+     background: #567d6f;
+}
+ .resume.experience {
+     background: #566e7d;
+}
+ .resume.skills {
+     background: #5a567d;
+}
+ .resume.accomplishments {
+     background: #7d7156;
+}
+/*Electrical Page*/
+ .elec-img {
+     width: 30%;
+}
+/*Street Light Page*/
+ .sl-img {
+     height: 30vh;
+     margin: 0 auto;
+}
+ .sl-iframe {
+     height: 30vh;
+     width: 27%;
+     margin: 0 auto;
+     vertical-align: bottom;
+     border: 0;
+}
+/*I kept these syles inside this main css file since there was not a lot. It would be more costly with regard to resources to make separate files for such a small amount of styling, based on my research.*/
