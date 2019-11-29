@@ -15,7 +15,7 @@
      font-weight: bold;
 }
  h2 {
-     font-size: 140%;
+     font-size: 160%;
      margin: 0 auto;
      padding: 0.8vh;
      font-weight: bold;
@@ -138,8 +138,8 @@
 /*Start Individual Pages*/
 /*Resume Page*/
  .resumebody {
-     font-size: 60%;
-     line-height: 3;
+     font-size: 75%;
+     line-height: 2;
      padding: 0px;
 }
  .resumebody ul {
@@ -203,7 +203,7 @@
   height: 100%;
   width: 100%;
 }
-/*Mobile Style*/
+/*Desktop Upscaling*/
 @media only screen and (min-width: 768px) {
   .top-banner {
     font-size: 62pt;
