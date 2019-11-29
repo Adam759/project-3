@@ -15,7 +15,7 @@
      font-weight: bold;
 }
  h2 {
-     font-size: 170%;
+     font-size: 140%;
      margin: 0 auto;
      padding: 0.8vh;
      font-weight: bold;
@@ -32,12 +32,12 @@
      font-weight: bold;
 }
  .top-banner {
-     font-size: 62pt;
      font-family: "Mansalva";
      color: grey;
      margin: 0 auto;
-     margin-top: 0.3em;
-     margin-bottom: 0.3em;
+     font-size: 42pt;
+     margin-top: 0.1em;
+     margin-bottom: 0.1em;
 }
  hr {
      border: 3px solid #a6a6a6;
@@ -51,9 +51,9 @@
      list-style-type: none;
      margin: 0 auto;
      padding: 0;
-     width: 60%;
      background-color: #2e2e2e;
-     border-radius: 8px;
+     width: 100%;
+     border-radius: 0px;
 }
  nav li {
      display: inline-block;
@@ -62,10 +62,10 @@
      display: block;
      color: white;
      text-align: center;
-     padding: 14px 42px;
      text-decoration: none;
-     font-size: large;
      font-weight: bold;
+     padding: 14px 10px;
+     font-size: 10pt;
 }
  nav li a:hover {
      background-color: #0f0f0f;
@@ -138,8 +138,9 @@
 /*Start Individual Pages*/
 /*Resume Page*/
  .resumebody {
-     font-size: 110%;
-     line-height: 2.5;
+     font-size: 60%;
+     line-height: 3;
+     padding: 0px;
 }
  .resumebody ul {
      list-style: disc outside none;
@@ -154,11 +155,11 @@
      margin: 0 auto;
      margin-top: 17px;
      margin-bottom: 17px;
-     border-radius: 15px;
-     padding: 10px;
      padding-top:0px;
      padding-bottom: 42px;
-     width: 700px;
+     width: 100%;
+     border-radius: 0px;
+     padding: 0 0 18px 0;
 }
  .resume.info {
      background: #5f7d56;
@@ -203,31 +204,30 @@
   width: 100%;
 }
 /*Mobile Style*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .top-banner {
-      font-size: 42pt;
-      margin-top: 0.1em;
-      margin-bottom: 0.1em;
+    font-size: 62pt;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
  }
   nav ul {
-      width: 100%;
-      border-radius: 0px;
+    width: 60%;
+    border-radius: 8px;
   }
   nav li a {
-      padding: 14px 10px;
-      font-size: 10pt;
+    padding: 14px 42px;
+    font-size: large;
   }
   .resume {
-      width: 100%;
-      border-radius: 0px;
-      padding: 0 0 18px 0;
+    width: 700px;
+    border-radius: 15px;
+    padding: 10px;
  }
  .resumebody {
-     font-size: 60%;
-     line-height: 3;
-     padding: 0px;
+   font-size: 110%;
+   line-height: 2.5;
 }
 h2 {
-  font-size: 140%;
+  font-size: 170%;
 }
 }
